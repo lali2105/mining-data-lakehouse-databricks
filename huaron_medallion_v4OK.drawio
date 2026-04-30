@@ -1,0 +1,280 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="rEPIv47v3qiqNVIWqYyx" name="Page-1">
+    <mxGraphModel dx="1546" dy="773" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="titulo" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=16;fontStyle=1;fontColor=#1a1a1a;" value="Pan American Silver · Mina Huarón · Pasco, Perú&#xa;Arquitectura Medallion — Socavón Polimetálico (Ag · Zn · Pb · Cu)" vertex="1">
+          <mxGeometry height="50" width="1400" x="400" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gov_bar" parent="1" style="text;html=1;strokeColor=#534AB7;fillColor=#EEEDFE;align=center;fontSize=11;fontStyle=1;fontColor=#3C3489;rotation=-90;rounded=1;arcSize=4;" value="Data Governance · Unity Catalog · Lineage · Access Control · Data Quality" vertex="1">
+          <mxGeometry height="31.75" width="1237.5" x="-579.63" y="680.88" as="geometry" />
+        </mxCell>
+        <mxCell id="orch_bar" parent="1" style="text;html=1;strokeColor=#3B6D11;fillColor=#EAF3DE;align=center;fontSize=11;fontStyle=1;fontColor=#27500A;rotation=-90;rounded=1;arcSize=4;" value="Orquestación · Apache Airflow · Databricks Workflows · DAGs · SLAs · Alertas" vertex="1">
+          <mxGeometry height="30" width="1243.87" x="1543.88" y="646.13" as="geometry" />
+        </mxCell>
+        <mxCell id="band_fuentes" parent="1" style="text;html=1;strokeColor=#1D9E75;fillColor=#E1F5EE;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#085041;rounded=1;arcSize=3;" value="FUENTES DE DATOS" vertex="1">
+          <mxGeometry height="28" width="2040" x="80" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;arcSize=8;align=center;verticalAlign=middle;" value="&lt;b&gt;Sensores Camiones (IoT)&lt;/b&gt;&#xa;GPS · Peso por viaje&#xa;Ciclos · Velocidad&#xa;MQTT / LoRaWAN · cada 30s" vertex="1">
+          <mxGeometry height="80" width="240" x="80" y="123" as="geometry" />
+        </mxCell>
+        <mxCell id="f2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;arcSize=8;align=center;verticalAlign=middle;" value="&lt;b&gt;Sistema Producción Mina&lt;/b&gt;&#xa;Parte de guardia digital&#xa;Avance (m) · Tajeo · Frente&#xa;Toneladas por turno" vertex="1">
+          <mxGeometry height="80" width="240" x="680" y="122" as="geometry" />
+        </mxCell>
+        <mxCell id="f3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;arcSize=8;align=center;verticalAlign=middle;" value="&lt;b&gt;Sistema Geología&lt;/b&gt;&#xa;Block model 3D (Vulcan)&#xa;Leyes estimadas por bloque&#xa;Actualización semanal" vertex="1">
+          <mxGeometry height="80" width="240" x="940" y="122" as="geometry" />
+        </mxCell>
+        <mxCell id="f4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1F5EE;strokeColor=#1D9E75;fontColor=#085041;fontSize=11;arcSize=8;align=center;verticalAlign=middle;" value="&lt;b&gt;Planta Concentradora&lt;/b&gt;&#xa;SCADA · OSIsoft PI · OPC-UA&#xa;Flotación · Molienda · pH&#xa;Reactivos · Presión · Caudal" vertex="1">
+          <mxGeometry height="80" width="240" x="400" y="122" as="geometry" />
+        </mxCell>
+        <mxCell id="f5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEDFE;strokeColor=#534AB7;fontColor=#26215C;fontSize=11;arcSize=8;align=center;verticalAlign=middle;" value="&lt;b&gt;Sistema Valorización&lt;/b&gt;&#xa;Contratas · Tarifas por tarea&#xa;Partidas · Frentes · Empresa&#xa;Aprobación de facturas" vertex="1">
+          <mxGeometry height="80" width="240" x="1280" y="123" as="geometry" />
+        </mxCell>
+        <mxCell id="f6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEDFE;strokeColor=#534AB7;fontColor=#26215C;fontSize=11;arcSize=8;align=center;verticalAlign=middle;" value="&lt;b&gt;ERP / Costos (SAP)&lt;/b&gt;&#xa;Órdenes de trabajo · RRHH&#xa;Costos operativos · Almacén&#xa;Presupuesto · Activos" vertex="1">
+          <mxGeometry height="80" width="240" x="1560" y="122" as="geometry" />
+        </mxCell>
+        <mxCell id="f7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEEDFE;strokeColor=#534AB7;fontColor=#26215C;fontSize=11;arcSize=8;align=center;verticalAlign=middle;" value="&lt;b&gt;LIMS Laboratorio Químico&lt;/b&gt;&#xa;Resultados por muestra&#xa;Ag (g/t) · Zn (%) · Pb (%) · Cu (%)&#xa;Recuperación metalúrgica" vertex="1">
+          <mxGeometry height="80" width="240" x="1840" y="123" as="geometry" />
+        </mxCell>
+        <mxCell id="band_ingesta" parent="1" style="text;html=1;strokeColor=#185FA5;fillColor=#E6F1FB;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#042C53;rounded=1;arcSize=3;" value="INGESTA" vertex="1">
+          <mxGeometry height="28" width="2040" x="80" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="i1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF3DE;strokeColor=#3B6D11;fontColor=#173404;fontSize=11;arcSize=8;align=center;verticalAlign=middle;" value="&lt;b&gt;STREAMING · IoT en tiempo real&lt;/b&gt;&#xa;Azure Event Hubs · Apache Kafka&#xa;Fuentes: Sensores Camiones + Planta SCADA&#xa;Latencia: milisegundos · MQTT · LoRaWAN" vertex="1">
+          <mxGeometry height="95" width="520" x="80" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="i2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6F1FB;strokeColor=#185FA5;fontColor=#042C53;fontSize=11;arcSize=8;align=center;verticalAlign=middle;" value="&lt;b&gt;BATCH · APIs y Archivos&lt;/b&gt;&#xa;Apache Airflow · Azure Data Factory&#xa;Fuentes: Producción + Geología + Valorización&#xa;Ciclos: cada 8h · diario · semanal" vertex="1">
+          <mxGeometry height="95" width="520" x="690" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="i3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#854F0B;fontColor=#412402;fontSize=11;arcSize=8;align=center;verticalAlign=middle;" value="&lt;b&gt;CDC · Cambios de Base de Datos&lt;/b&gt;&#xa;Debezium · Kafka Connect&#xa;Fuentes: ERP SAP + LIMS Laboratorio&#xa;Captura cambios en tiempo real · sin impacto en BD" vertex="1">
+          <mxGeometry height="95" width="590" x="1460" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="band_bronze" parent="1" style="text;html=1;strokeColor=#CD7F32;fillColor=#FDF3E3;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#7a4a1a;rounded=1;arcSize=3;" value="BRONZE · Dato crudo e inmutable · Azure Data Lake Storage Gen2 · Partición: fuente / año / mes / día · Sin transformación · Trazabilidad NI 43-101" vertex="1">
+          <mxGeometry height="28" width="2040" x="80" y="447" as="geometry" />
+        </mxCell>
+        <mxCell id="b1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FDF3E3;strokeColor=#CD7F32;fontColor=#7a4a1a;fontSize=11;arcSize=8;align=center;verticalAlign=middle;" value="&lt;b&gt;viajes_camion_raw&lt;/b&gt;&#xa;Campos: viaje_id, camion_id, turno&#xa;peso_bruto, peso_neto, origen&#xa;destino, timestamp, conductor&#xa;Formato: JSON · Frecuencia: 30s" vertex="1">
+          <mxGeometry height="100" width="320" x="80" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="b2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FDF3E3;strokeColor=#CD7F32;fontColor=#7a4a1a;fontSize=11;arcSize=8;align=center;verticalAlign=middle;" value="&lt;b&gt;geologia_muestras_raw&lt;/b&gt;&#xa;Campos: muestra_id, bloque_id&#xa;coordenada_x/y/z, ley_ag_estimada&#xa;ley_zn, ley_pb, ley_cu&#xa;Formato: CSV · Frecuencia: semanal" vertex="1">
+          <mxGeometry height="100" width="320" x="480" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="b3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FDF3E3;strokeColor=#CD7F32;fontColor=#7a4a1a;fontSize=11;arcSize=8;align=center;verticalAlign=middle;" value="&lt;b&gt;produccion_mina_raw&lt;/b&gt;&#xa;Campos: parte_id, turno, frente&#xa;tajeo, toneladas, avance_m&#xa;operador, guardia, fecha&#xa;Formato: JSON · Frecuencia: 8h" vertex="1">
+          <mxGeometry height="100" width="320" x="880" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="b4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FDF3E3;strokeColor=#CD7F32;fontColor=#7a4a1a;fontSize=11;arcSize=8;align=center;verticalAlign=middle;" value="&lt;b&gt;planta_raw&lt;/b&gt;&#xa;Campos: tag_id, timestamp, valor&#xa;flotacion_ph, caudal_m3h&#xa;presion_bar, reactivo_kg, circuito&#xa;Formato: Parquet · Frecuencia: 1min" vertex="1">
+          <mxGeometry height="100" width="320" x="1280" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="b5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FDF3E3;strokeColor=#CD7F32;fontColor=#7a4a1a;fontSize=11;arcSize=8;align=center;verticalAlign=middle;" value="&lt;b&gt;contratas_raw&lt;/b&gt;&#xa;Campos: empresa_id, tarea_cod&#xa;frente, cantidad, tarifa_unit&#xa;fecha, estado, aprobador&#xa;Formato: JSON · Frecuencia: diario" vertex="1">
+          <mxGeometry height="100" width="340" x="1670" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="band_silver" parent="1" style="text;html=1;strokeColor=#9CA3AF;fillColor=#F1EFE8;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#2C2C2A;rounded=1;arcSize=3;" value="SILVER · Datos limpios · Validados · Reconciliados · Azure Databricks + Delta Lake · Transformaciones ELT con Spark" vertex="1">
+          <mxGeometry height="28" width="2040" x="80" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="xzOok32KjBaML4_9S3xN-2" edge="1" parent="1" source="s1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="s2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EFE8;strokeColor=#9CA3AF;fontColor=#2C2C2A;fontSize=11;arcSize=8;align=center;verticalAlign=middle;" value="&lt;b&gt;viajes_camion&lt;/b&gt;&#xa;Viajes validados y limpios&#xa;Turno asignado · Peso neto real&#xa;Ciclo calculado (min)&#xa;Outliers removidos" vertex="1">
+          <mxGeometry height="100" width="320" x="80" y="697" as="geometry" />
+        </mxCell>
+        <mxCell id="s2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EFE8;strokeColor=#9CA3AF;fontColor=#2C2C2A;fontSize=11;arcSize=8;align=center;verticalAlign=middle;" value="&lt;b&gt;geologia_leyes&lt;/b&gt;&#xa;Leyes validadas por rango&#xa;Ag (g/t) · Zn/Pb/Cu (%)&#xa;Anomalías descartadas&#xa;Block model reconciliado" vertex="1">
+          <mxGeometry height="100" width="320" x="480" y="697" as="geometry" />
+        </mxCell>
+        <mxCell id="s3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EFE8;strokeColor=#9CA3AF;fontColor=#2C2C2A;fontSize=11;arcSize=8;align=center;verticalAlign=middle;" value="&lt;b&gt;produccion_turno&lt;/b&gt;&#xa;Ton reales · Avance (m)&#xa;VPT = Ley × Precio × Rec.&#xa;Guardia Mañana/Tarde/Noche&#xa;Reconciliación geología-planta" vertex="1">
+          <mxGeometry height="100" width="320" x="880" y="697" as="geometry" />
+        </mxCell>
+        <mxCell id="s4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EFE8;strokeColor=#9CA3AF;fontColor=#2C2C2A;fontSize=11;arcSize=8;align=center;verticalAlign=middle;" value="&lt;b&gt;planta_procesamiento&lt;/b&gt;&#xa;Recuperación % por metal&#xa;Eficiencia energética&#xa;Consumo reactivos (kg/t)&#xa;Turno · Circuito" vertex="1">
+          <mxGeometry height="100" width="320" x="1280" y="697" as="geometry" />
+        </mxCell>
+        <mxCell id="s5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EFE8;strokeColor=#9CA3AF;fontColor=#2C2C2A;fontSize=11;arcSize=8;align=center;verticalAlign=middle;" value="&lt;b&gt;contratas_validadas&lt;/b&gt;&#xa;Tarifa × cantidad real&#xa;Costo diario por empresa&#xa;Costo por frente · por tarea&#xa;Estado: aprobado/pendiente" vertex="1">
+          <mxGeometry height="107" width="330" x="1680" y="693" as="geometry" />
+        </mxCell>
+        <mxCell id="band_gold" parent="1" style="text;html=1;strokeColor=#F59E0B;fillColor=#FAEEDA;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#412402;rounded=1;arcSize=3;" value="GOLD · KPIs de negocio listos para consumo · Delta Lake con Z-ordering · Agregados diario / semanal / mensual" vertex="1">
+          <mxGeometry height="28" width="2040" x="80" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="g1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#F59E0B;fontColor=#412402;fontSize=11;arcSize=8;align=center;verticalAlign=middle;" value="&lt;b&gt;KPI Producción&lt;/b&gt;&#xa;Toneladas molidas diarias&#xa;Ag oz · Zn t · Pb t · Cu t&#xa;Real vs. Plan de minado&#xa;Por turno · día · mes" vertex="1">
+          <mxGeometry height="112" width="320" x="80" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="g2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#F59E0B;fontColor=#412402;fontSize=11;arcSize=8;align=center;verticalAlign=middle;" value="&lt;b&gt;KPI Ley Mineral&lt;/b&gt;&#xa;g/t Ag real vs. estimado&#xa;% Dilución geológica&#xa;Reconciliación (KPI crítico)&#xa;Por bloque · frente · turno" vertex="1">
+          <mxGeometry height="112" width="320" x="480" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="g3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#F59E0B;fontColor=#412402;fontSize=11;arcSize=8;align=center;verticalAlign=middle;" value="&lt;b&gt;KPI Recuperación Planta&lt;/b&gt;&#xa;% Recuperación Ag · Zn · Pb&#xa;Eficiencia metalúrgica&#xa;Costo reactivos ($/t)&#xa;Por circuito · turno" vertex="1">
+          <mxGeometry height="112" width="320" x="880" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="g4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#F59E0B;fontColor=#412402;fontSize=11;arcSize=8;align=center;verticalAlign=middle;" value="&lt;b&gt;KPI Transporte&lt;/b&gt;&#xa;Ciclos / turno por camión&#xa;Toneladas / hora flota&#xa;Tiempo espera en pique&#xa;Utilización flota (%)" vertex="1">
+          <mxGeometry height="112" width="320" x="1280" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="g5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#F59E0B;fontColor=#412402;fontSize=11;arcSize=8;align=center;verticalAlign=middle;" value="&lt;b&gt;KPI Valorización Contratas&lt;/b&gt;&#xa;Costo real vs. presupuesto&#xa;AISC ($/oz Ag) mensual&#xa;Por empresa · frente · tarea&#xa;Reporte SEC · NASDAQ · TSX" vertex="1">
+          <mxGeometry height="112" width="330" x="1680" y="888" as="geometry" />
+        </mxCell>
+        <mxCell id="band_consumo" parent="1" style="text;html=1;strokeColor=#D85A30;fillColor=#FAECE7;align=left;verticalAlign=middle;fontSize=12;fontStyle=1;fontColor=#4A1B0C;rounded=1;arcSize=3;" value="CONSUMO" vertex="1">
+          <mxGeometry height="28" width="2040" x="80" y="1074" as="geometry" />
+        </mxCell>
+        <mxCell id="c1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAECE7;strokeColor=#D85A30;fontColor=#4A1B0C;fontSize=11;arcSize=8;align=center;verticalAlign=middle;" value="&lt;b&gt;Power BI · Dashboards&lt;/b&gt;&#xa;Superintendencia · Jefe guardia&#xa;KPIs producción en tiempo real&#xa;Mapa de frentes activos" vertex="1">
+          <mxGeometry height="102" width="310" x="80" y="1138" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAECE7;strokeColor=#D85A30;fontColor=#4A1B0C;fontSize=11;arcSize=8;align=center;verticalAlign=middle;" value="&lt;b&gt;Reportes Gerenciales&lt;/b&gt;&#xa;AISC · Costos · Presupuesto&#xa;NI 43-101 · SEC · NASDAQ · TSX&#xa;Cierre mensual automatizado" vertex="1">
+          <mxGeometry height="102" width="300" x="430" y="1138" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAECE7;strokeColor=#D85A30;fontColor=#4A1B0C;fontSize=11;arcSize=8;align=center;verticalAlign=middle;" value="&lt;b&gt;Analítica Operativa&lt;/b&gt;&#xa;Ingeniería de minas · Procesos&#xa;Optimización planta · Notebooks&#xa;Databricks SQL · Ad hoc" vertex="1">
+          <mxGeometry height="102" width="310" x="780" y="1138" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAECE7;strokeColor=#D85A30;fontColor=#4A1B0C;fontSize=11;arcSize=8;align=center;verticalAlign=middle;" value="&lt;b&gt;Alertas · Monitoreo Real&lt;/b&gt;&#xa;Azure Stream Analytics&#xa;Gases CO/NOx · Ventilación&#xa;Teams · SMS · PLC · Sirena" vertex="1">
+          <mxGeometry height="102" width="300" x="1130" y="1138" as="geometry" />
+        </mxCell>
+        <mxCell id="c5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAECE7;strokeColor=#D85A30;fontColor=#4A1B0C;fontSize=11;arcSize=8;align=center;verticalAlign=middle;" value="&lt;b&gt;Geología&lt;/b&gt;&#xa;Actualización block model&#xa;Planificación de minado&#xa;Drill &amp; Blast · Reservas NI 43" vertex="1">
+          <mxGeometry height="102" width="260" x="1460" y="1138" as="geometry" />
+        </mxCell>
+        <mxCell id="c6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAECE7;strokeColor=#D85A30;fontColor=#4A1B0C;fontSize=11;arcSize=8;align=center;verticalAlign=middle;" value="&lt;b&gt;Finanzas · Costos&lt;/b&gt;&#xa;Valorización de contratas&#xa;Aprobación de facturas&#xa;Cierre mensual · SAP FI" vertex="1">
+          <mxGeometry height="90" width="240" x="1800" y="1144" as="geometry" />
+        </mxCell>
+        <mxCell id="e_f1_i1" edge="1" parent="1" source="f1" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#1D9E75;strokeWidth=2;dashed=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="250" />
+              <mxPoint x="200" y="250" />
+            </Array>
+            <mxPoint x="200" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_f4_i1" edge="1" parent="1" source="f4" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#1D9E75;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="522" y="203" />
+            </Array>
+            <mxPoint x="522" y="305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_f2_i2" edge="1" parent="1" source="f2" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#185FA5;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.2;entryY=0;entryDx=0;entryDy=0;" target="i2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_f3_i2" edge="1" parent="1" source="f3" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#185FA5;strokeWidth=2;dashed=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="i2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_f5_i2" edge="1" parent="1" source="f5" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#185FA5;strokeWidth=2;dashed=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.8;entryY=0;entryDx=0;entryDy=0;" target="i2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_f6_i3" edge="1" parent="1" source="f6" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#854F0B;strokeWidth=2;dashed=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.3;entryY=0;entryDx=0;entryDy=0;" target="i3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_f7_i3" edge="1" parent="1" source="f7" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#854F0B;strokeWidth=2;dashed=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.7;entryY=0;entryDx=0;entryDy=0;" target="i3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_i1_b1" edge="1" parent="1" source="i1" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#CD7F32;strokeWidth=2;exitX=0.15;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="b1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="158" y="420" />
+              <mxPoint x="240" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_i1_b4" edge="1" parent="1" source="i1" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#CD7F32;strokeWidth=2;exitX=0.85;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="b4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="522" y="420" />
+              <mxPoint x="1440" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_i2_b3" edge="1" parent="1" source="i2" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#CD7F32;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="b3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="950" y="430" />
+              <mxPoint x="1040" y="430" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_i2_b2" edge="1" parent="1" source="i2" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#CD7F32;strokeWidth=2;exitX=0.2;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="b2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="794" y="440" />
+              <mxPoint x="640" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_i3_b5" edge="1" parent="1" source="i3" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#CD7F32;strokeWidth=2;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.65;exitY=0.975;exitDx=0;exitDy=0;exitPerimeter=0;" target="b5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1880" y="410" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_b1_s1" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#9CA3AF;strokeWidth=2;fontSize=9;fontColor=#5F5E5A;align=center;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="s1" value="ELT · Spark">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="600" as="sourcePoint" />
+            <mxPoint x="240" y="687" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_b2_s2" edge="1" parent="1" source="b2" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#9CA3AF;strokeWidth=2;" target="s2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_b3_s3" edge="1" parent="1" source="b3" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#9CA3AF;strokeWidth=2;" target="s3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_b4_s4" edge="1" parent="1" source="b4" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#9CA3AF;strokeWidth=2;" target="s4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_b5_s5" edge="1" parent="1" source="b5" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#9CA3AF;strokeWidth=2;" target="s5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_s1_g1" edge="1" parent="1" source="s1" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#F59E0B;strokeWidth=2;fontSize=9;fontColor=#854F0B;align=center;" target="g1" value="Agrega">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_s2_g2" edge="1" parent="1" source="s2" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#F59E0B;strokeWidth=2;" target="g2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_s3_g3" edge="1" parent="1" source="s3" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#F59E0B;strokeWidth=2;" target="g3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_s4_g4" edge="1" parent="1" source="s4" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#F59E0B;strokeWidth=2;" target="g4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_s5_g5" edge="1" parent="1" source="s5" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#F59E0B;strokeWidth=2;" target="g5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_g1_c1" edge="1" parent="1" source="g1" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#D85A30;strokeWidth=1.5;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_g2_c5" edge="1" parent="1" source="g2" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#D85A30;strokeWidth=1.5;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="c5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="1030" />
+              <mxPoint x="1590" y="1030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_g3_c3" edge="1" parent="1" source="g3" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#D85A30;strokeWidth=1.5;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1040" y="1138" />
+            </Array>
+            <mxPoint x="1040" y="1138" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_g4_c4" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#D85A30;strokeWidth=1.5;entryX=0.659;entryY=0.072;entryDx=0;entryDy=0;entryPerimeter=0;" target="c4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1328" y="1000" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_g5_c2" edge="1" parent="1" source="g5" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#D85A30;strokeWidth=1.5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1840" y="1000" />
+              <mxPoint x="1840" y="1055" />
+              <mxPoint x="580" y="1055" />
+            </Array>
+            <mxPoint x="1840" y="1020" as="sourcePoint" />
+            <mxPoint x="580" y="1163" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_g5_c6" edge="1" parent="1" source="g5" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#D85A30;strokeWidth=1.5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.727;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="c6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1920" y="1010" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="leyenda" parent="1" style="text;html=1;strokeColor=#cccccc;fillColor=#f9f9f9;align=center;fontSize=10;fontColor=#555;rounded=1;arcSize=3;" value="&lt;b&gt;Leyenda conexiones:&lt;/b&gt;  Verde = Sensores → Streaming  ·  Azul = Sistemas/Archivos → Batch  ·  Ámbar = Bases de datos → CDC  ·  Gris = Bronze → Silver (ELT · Spark)  ·  Dorado = Silver → Gold  ·  Naranja = Gold → Consumo&#xa;Colores Medallion estándar:  Bronze #CD7F32  ·  Silver #9CA3AF  ·  Gold #F59E0B  ·  Franjas laterales:  Governance (morado) + Orquestación (verde)" vertex="1">
+          <mxGeometry height="40" width="2040" x="80" y="1280" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

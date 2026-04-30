@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+  <root>
+    <mxCell id="0"/><mxCell id="1" parent="0"/>
+
+    <!-- ══════════════════════════════════════════
+         TÍTULO
+    ══════════════════════════════════════════ -->
+    <mxCell id="tit" value="Pan American Silver · Mina Huarón — Stack Tecnológico"
+      style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=18;fontStyle=1;fontColor=#1a1a1a;"
+      vertex="1" parent="1">
+      <mxGeometry x="100" y="18" width="1200" height="28" as="geometry"/>
+    </mxCell>
+    <mxCell id="sub" value="Resumen ejecutivo · Arquitectura Medallion · Socavón Polimetálico Ag · Zn · Pb · Cu"
+      style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=12;fontColor=#555555;"
+      vertex="1" parent="1">
+      <mxGeometry x="100" y="46" width="1200" height="20" as="geometry"/>
+    </mxCell>
+
+    <!-- ══════════════════════════════════════════
+         FASE 1 — FUENTES
+         x=60, y=80, w=180, h=700
+    ══════════════════════════════════════════ -->
+    <mxCell id="fase1_bg" value=""
+      style="rounded=1;arcSize=4;fillColor=#E1F5EE;strokeColor=#1D9E75;strokeWidth=2;"
+      vertex="1" parent="1">
+      <mxGeometry x="60" y="80" width="180" height="720" as="geometry"/>
+    </mxCell>
+    <mxCell id="fase1_lbl" value="① FUENTES"
+      style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=13;fontStyle=1;fontColor=#085041;"
+      vertex="1" parent="1">
+      <mxGeometry x="60" y="86" width="180" height="24" as="geometry"/>
+    </mxCell>
+
+    <!-- 7 fuentes apiladas verticalmente -->
+    <mxCell id="f1r" value="Sensores Camiones&#xa;GPS · Peso · Ciclos"
+      style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1D9E75;fontColor=#085041;fontSize=10;arcSize=10;align=center;"
+      vertex="1" parent="1"><mxGeometry x="72" y="118" width="156" height="48" as="geometry"/></mxCell>
+
+    <mxCell id="f2r" value="Sist. Producción Mina&#xa;Partes guardia · Turno"
+      style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1D9E75;fontColor=#085041;fontSize=10;arcSize=10;align=center;"
+      vertex="1" parent="1"><mxGeometry x="72" y="178" width="156" height="48" as="geometry"/></mxCell>
+
+    <mxCell id="f3r" value="Sist. Geología&#xa;Block model · Leyes"
+      style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1D9E75;fontColor=#085041;fontSize=10;arcSize=10;align=center;"
+      vertex="1" parent="1"><mxGeometry x="72" y="238" width="156" height="48" as="geometry"/></mxCell>
+
+    <mxCell id="f4r" value="Planta Concentradora&#xa;SCADA · Flotación"
+      style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#1D9E75;fontColor=#085041;fontSize=10;arcSize=10;align=center;"
+      vertex="1" parent="1"><mxGeometry x="72" y="298" width="156" height="48" as="geometry"/></mxCell>
+
+    <mxCell id="f5r" value="Sist. Valorización&#xa;Contratas · Tarifas"
+      style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#534AB7;fontColor=#26215C;fontSize=10;arcSize=10;align=center;"
+      vertex="1" parent="1"><mxGeometry x="72" y="358" width="156" height="48" as="geometry"/></mxCell>
+
+    <mxCell id="f6r" value="ERP · SAP&#xa;Costos · Órdenes"
+      style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#534AB7;fontColor=#26215C;fontSize=10;arcSize=10;align=center;"
+      vertex="1" parent="1"><mxGeometry x="72" y="418" width="156" height="48" as="geometry"/></mxCell>
+
+    <mxCell id="f7r" value="LIMS Laboratorio&#xa;Ag·Zn·Pb·Cu (g/t)"
+      style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#534AB7;fontColor=#26215C;fontSize=10;arcSize=10;align=center;"
+      vertex="1" parent="1"><mxGeometry x="72" y="478" width="156" height="48" as="geometry"/></mxCell>
+
+    <!-- ══════════════════════════════════════════
+         FASE 2 — INGESTA
+         x=290, y=80, w=180, h=700
+    ══════════════════════════════════════════ -->
+    <mxCell id="fase2_bg" value=""
+      style="rounded=1;arcSize=4;fillColor=#E6F1FB;strokeColor=#185FA5;strokeWidth=2;"
+      vertex="1" parent="1">
+      <mxGeometry x="290" y="80" width="180" height="720" as="geometry"/>
+    </mxCell>
+    <mxCell id="fase2_lbl" value="② INGESTA"
+      style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=13;fontStyle=1;fontColor=#042C53;"
+      vertex="1" parent="1">
+      <mxGeometry x="290" y="86" width="180" height="24" as="geometry"/>
+    </mxCell>
+
+    <!-- Streaming -->
+    <mxCell id="i1r" value="STREAMING&#xa;Azure Event Hubs&#xa;Apache Kafka&#xa;MQTT · LoRaWAN"
+      style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF3DE;strokeColor=#3B6D11;fontColor=#173404;fontSize=10;arcSize=10;align=center;fontStyle=1;"
+      vertex="1" parent="1"><mxGeometry x="302" y="118" width="156" height="90" as="geometry"/></mxCell>
+
+    <!-- Batch -->
+    <mxCell id="i2r" value="BATCH&#xa;Apache Airflow&#xa;Azure Data Factory&#xa;REST APIs · CSV"
+      style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6F1FB;strokeColor=#185FA5;fontColor=#042C53;fontSize=10;arcSize=10;align=center;fontStyle=1;"
+      vertex="1" parent="1"><mxGeometry x="302" y="238" width="156" height="90" as="geometry"/></mxCell>
+
+    <!-- CDC -->
+    <mxCell id="i3r" value="CDC&#xa;Debezium&#xa;Kafka Connect&#xa;Cambios en BD"
+      style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#854F0B;fontColor=#412402;fontSize=10;arcSize=10;align=center;fontStyle=1;"
+      vertex="1" parent="1"><mxGeometry x="302" y="358" width="156" height="90" as="geometry"/></mxCell>
+
+    <!-- ══════════════════════════════════════════
+         FASE 3 — STORAGE (Bronze/Silver/Gold)
+         x=520, y=80, w=480, h=700
+         Bronze: y=100, h=180
+         Silver: y=310, h=180
+         Gold:   y=520, h=180
+    ══════════════════════════════════════════ -->
+    <mxCell id="fase3_bg" value=""
+      style="rounded=1;arcSize=4;fillColor=#FAFAFA;strokeColor=#888780;strokeWidth=2;"
+      vertex="1" parent="1">
+      <mxGeometry x="520" y="80" width="480" height="720" as="geometry"/>
+    </mxCell>
+    <mxCell id="fase3_lbl" value="③ STORAGE · PROCESSING"
+      style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=13;fontStyle=1;fontColor=#2C2C2A;"
+      vertex="1" parent="1">
+      <mxGeometry x="520" y="86" width="480" height="24" as="geometry"/>
+    </mxCell>
+
+    <!-- BRONZE -->
+    <mxCell id="bronze_box" value=""
+      style="rounded=1;arcSize=6;fillColor=#FDF3E3;strokeColor=#CD7F32;strokeWidth=2;"
+      vertex="1" parent="1">
+      <mxGeometry x="534" y="118" width="452" height="176" as="geometry"/>
+    </mxCell>
+    <mxCell id="bronze_tit" value="BRONZE — Dato crudo · Inmutable"
+      style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=12;fontStyle=1;fontColor=#CD7F32;"
+      vertex="1" parent="1">
+      <mxGeometry x="534" y="124" width="452" height="20" as="geometry"/>
+    </mxCell>
+    <mxCell id="bronze_tool" value="Azure Data Lake Storage Gen2&#xa;Formato: Parquet · JSON · CSV&#xa;Partición: fuente / año / mes / día"
+      style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=10;fontColor=#7a4a1a;"
+      vertex="1" parent="1">
+      <mxGeometry x="534" y="146" width="452" height="48" as="geometry"/>
+    </mxCell>
+    <!-- 5 mini-tablas bronze -->
+    <mxCell id="bt1" value="viajes_camion_raw"
+      style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FDF3E3;strokeColor=#CD7F32;fontColor=#7a4a1a;fontSize=9;arcSize=8;"
+      vertex="1" parent="1"><mxGeometry x="542" y="200" width="128" height="28" as="geometry"/></mxCell>
+    <mxCell id="bt2" value="geologia_muestras_raw"
+      style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FDF3E3;strokeColor=#CD7F32;fontColor=#7a4a1a;fontSize=9;arcSize=8;"
+      vertex="1" parent="1"><mxGeometry x="682" y="200" width="144" height="28" as="geometry"/></mxCell>
+    <mxCell id="bt3" value="produccion_mina_raw"
+      style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FDF3E3;strokeColor=#CD7F32;fontColor=#7a4a1a;fontSize=9;arcSize=8;"
+      vertex="1" parent="1"><mxGeometry x="838" y="200" width="140" height="28" as="geometry"/></mxCell>
+    <mxCell id="bt4" value="planta_raw"
+      style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FDF3E3;strokeColor=#CD7F32;fontColor=#7a4a1a;fontSize=9;arcSize=8;"
+      vertex="1" parent="1"><mxGeometry x="542" y="238" width="128" height="28" as="geometry"/></mxCell>
+    <mxCell id="bt5" value="contratas_raw"
+      style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FDF3E3;strokeColor=#CD7F32;fontColor=#7a4a1a;fontSize=9;arcSize=8;"
+      vertex="1" parent="1"><mxGeometry x="682" y="238" width="144" height="28" as="geometry"/></mxCell>
+
+    <!-- SILVER -->
+    <mxCell id="silver_box" value=""
+      style="rounded=1;arcSize=6;fillColor=#F1EFE8;strokeColor=#9CA3AF;strokeWidth=2;"
+      vertex="1" parent="1">
+      <mxGeometry x="534" y="310" width="452" height="176" as="geometry"/>
+    </mxCell>
+    <mxCell id="silver_tit" value="SILVER — Limpio · Validado · Reconciliado"
+      style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=12;fontStyle=1;fontColor=#5F5E5A;"
+      vertex="1" parent="1">
+      <mxGeometry x="534" y="316" width="452" height="20" as="geometry"/>
+    </mxCell>
+    <mxCell id="silver_tool" value="Azure Databricks · Delta Lake · Apache Spark&#xa;ELT: validación leyes · reconciliación geología-planta · VPT · valorización contratas"
+      style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=10;fontColor=#444441;"
+      vertex="1" parent="1">
+      <mxGeometry x="534" y="338" width="452" height="40" as="geometry"/>
+    </mxCell>
+    <mxCell id="st1" value="viajes_camion"
+      style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EFE8;strokeColor=#9CA3AF;fontColor=#2C2C2A;fontSize=9;arcSize=8;"
+      vertex="1" parent="1"><mxGeometry x="542" y="386" width="128" height="28" as="geometry"/></mxCell>
+    <mxCell id="st2" value="geologia_leyes"
+      style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EFE8;strokeColor=#9CA3AF;fontColor=#2C2C2A;fontSize=9;arcSize=8;"
+      vertex="1" parent="1"><mxGeometry x="682" y="386" width="128" height="28" as="geometry"/></mxCell>
+    <mxCell id="st3" value="produccion_turno"
+      style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EFE8;strokeColor=#9CA3AF;fontColor=#2C2C2A;fontSize=9;arcSize=8;"
+      vertex="1" parent="1"><mxGeometry x="822" y="386" width="128" height="28" as="geometry"/></mxCell>
+    <mxCell id="st4" value="planta_procesamiento"
+      style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EFE8;strokeColor=#9CA3AF;fontColor=#2C2C2A;fontSize=9;arcSize=8;"
+      vertex="1" parent="1"><mxGeometry x="542" y="424" width="128" height="28" as="geometry"/></mxCell>
+    <mxCell id="st5" value="contratas_validadas"
+      style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1EFE8;strokeColor=#9CA3AF;fontColor=#2C2C2A;fontSize=9;arcSize=8;"
+      vertex="1" parent="1"><mxGeometry x="682" y="424" width="128" height="28" as="geometry"/></mxCell>
+
+    <!-- GOLD -->
+    <mxCell id="gold_box" value=""
+      style="rounded=1;arcSize=6;fillColor=#FAEEDA;strokeColor=#F59E0B;strokeWidth=2;"
+      vertex="1" parent="1">
+      <mxGeometry x="534" y="502" width="452" height="176" as="geometry"/>
+    </mxCell>
+    <mxCell id="gold_tit" value="GOLD — KPIs listos para consumo"
+      style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=12;fontStyle=1;fontColor=#F59E0B;"
+      vertex="1" parent="1">
+      <mxGeometry x="534" y="508" width="452" height="20" as="geometry"/>
+    </mxCell>
+    <mxCell id="gold_tool" value="Delta Lake · Z-ordering · Power BI DirectQuery&#xa;Agregados: diario · semanal · mensual"
+      style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=10;fontColor=#854F0B;"
+      vertex="1" parent="1">
+      <mxGeometry x="534" y="530" width="452" height="34" as="geometry"/>
+    </mxCell>
+    <mxCell id="gt1" value="KPI Producción"
+      style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#F59E0B;fontColor=#412402;fontSize=9;arcSize=8;"
+      vertex="1" parent="1"><mxGeometry x="542" y="572" width="120" height="28" as="geometry"/></mxCell>
+    <mxCell id="gt2" value="KPI Ley Mineral"
+      style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#F59E0B;fontColor=#412402;fontSize=9;arcSize=8;"
+      vertex="1" parent="1"><mxGeometry x="674" y="572" width="120" height="28" as="geometry"/></mxCell>
+    <mxCell id="gt3" value="KPI Recuperación"
+      style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#F59E0B;fontColor=#412402;fontSize=9;arcSize=8;"
+      vertex="1" parent="1"><mxGeometry x="806" y="572" width="120" height="28" as="geometry"/></mxCell>
+    <mxCell id="gt4" value="KPI Transporte"
+      style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#F59E0B;fontColor=#412402;fontSize=9;arcSize=8;"
+      vertex="1" parent="1"><mxGeometry x="542" y="610" width="120" height="28" as="geometry"/></mxCell>
+    <mxCell id="gt5" value="KPI Valorización"
+      style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#F59E0B;fontColor=#412402;fontSize=9;arcSize=8;"
+      vertex="1" parent="1"><mxGeometry x="674" y="610" width="120" height="28" as="geometry"/></mxCell>
+    <mxCell id="gt6" value="AISC $/oz Ag"
+      style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FAEEDA;strokeColor=#F59E0B;fontColor=#412402;fontSize=9;arcSize=8;"
+      vertex="1" parent="1"><mxGeometry x="806" y="610" width="120" height="28" as="geometry"/></mxCell>
+
+    <!-- ══════════════════════════════════════════
+         FASE 4 — CONSUMO
+         x=1060, y=80, w=280, h=700
+    ══════════════════════════════════════════ -->
+    <mxCell id="fase4_bg" value=""
+      style="rounded=1;arcSize=4;fillColor=#FAECE7;strokeColor=#D85A30;strokeWidth=2;"
+      vertex="1" parent="1">
+      <mxGeometry x="1060" y="80" width="280" height="720" as="geometry"/>
+    </mxCell>
+    <mxCell id="fase4_lbl" value="④ CONSUMO"
+      style="text;html=1;strokeColor=none;fillColor=none;align=center;fontSize=13;fontStyle=1;fontColor=#4A1B0C;"
+      vertex="1" parent="1">
+      <mxGeometry x="1060" y="86" width="280" height="24" as="geometry"/>
+    </mxCell>
+
+    <mxCell id="c1r" value="Power BI · Dashboards&#xa;Superintendencia · Turno"
+      style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#D85A30;fontColor=#4A1B0C;fontSize=10;arcSize=10;align=center;"
+      vertex="1" parent="1"><mxGeometry x="1074" y="118" width="252" height="52" as="geometry"/></mxCell>
+
+    <mxCell id="c2r" value="Reportes Gerenciales&#xa;AISC · NI 43-101 · SEC · TSX"
+      style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#D85A30;fontColor=#4A1B0C;fontSize=10;arcSize=10;align=center;"
+      vertex="1" parent="1"><mxGeometry x="1074" y="186" width="252" height="52" as="geometry"/></mxCell>
+
+    <mxCell id="c3r" value="Analítica Operativa&#xa;Databricks SQL · Notebooks"
+      style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#D85A30;fontColor=#4A1B0C;fontSize=10;arcSize=10;align=center;"
+      vertex="1" parent="1"><mxGeometry x="1074" y="254" width="252" height="52" as="geometry"/></mxCell>
+
+    <mxCell id="c4r" value="Alertas · Monitoreo Real&#xa;Stream Analytics · Teams · SMS"
+      style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#D85A30;fontColor=#4A1B0C;fontSize=10;arcSize=10;align=center;"
+      vertex="1" parent="1"><mxGeometry x="1074" y="322" width="252" height="52" as="geometry"/></mxCell>
+
+    <mxCell id="c5r" value="Geología&#xa;Block model · Planificación"
+      style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#D85A30;fontColor=#4A1B0C;fontSize=10;arcSize=10;align=center;"
+      vertex="1" parent="1"><mxGeometry x="1074" y="390" width="252" height="52" as="geometry"/></mxCell>
+
+    <mxCell id="c6r" value="Finanzas · Costos&#xa;Contratas · Facturas · SAP FI"
+      style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#D85A30;fontColor=#4A1B0C;fontSize=10;arcSize=10;align=center;"
+      vertex="1" parent="1"><mxGeometry x="1074" y="458" width="252" height="52" as="geometry"/></mxCell>
+
+    <mxCell id="c7r" value="MLflow · Mantenimiento Pred.&#xa;Chancadoras · Bombas"
+      style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#D85A30;fontColor=#4A1B0C;fontSize=10;arcSize=10;align=center;"
+      vertex="1" parent="1"><mxGeometry x="1074" y="526" width="252" height="52" as="geometry"/></mxCell>
+
+    <!-- ══════════════════════════════════════════
+         FLECHAS PRINCIPALES (fase a fase)
+         Ancho: f→i x=240→290, i→s x=470→520
+                s→c x=1000→1060
+    ══════════════════════════════════════════ -->
+
+    <!-- Fuentes → Ingesta -->
+    <mxCell id="arr_fi" value="IoT · Batch · CDC"
+      style="edgeStyle=orthogonalEdgeStyle;strokeColor=#185FA5;strokeWidth=3;fontSize=10;fontColor=#185FA5;align=center;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;"
+      edge="1" source="fase1_bg" target="fase2_bg" parent="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+
+    <!-- Ingesta → Storage -->
+    <mxCell id="arr_is" value="→ ADLS Gen2"
+      style="edgeStyle=orthogonalEdgeStyle;strokeColor=#CD7F32;strokeWidth=3;fontSize=10;fontColor=#CD7F32;align=center;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;"
+      edge="1" source="fase2_bg" target="fase3_bg" parent="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+
+    <!-- Bronze → Silver (interna, flecha vertical centrada) -->
+    <mxCell id="arr_bs" value="ELT · Spark"
+      style="edgeStyle=orthogonalEdgeStyle;strokeColor=#9CA3AF;strokeWidth=2;fontSize=10;fontColor=#5F5E5A;align=center;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;"
+      edge="1" source="bronze_box" target="silver_box" parent="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+
+    <!-- Silver → Gold -->
+    <mxCell id="arr_sg" value="Agrega"
+      style="edgeStyle=orthogonalEdgeStyle;strokeColor=#F59E0B;strokeWidth=2;fontSize=10;fontColor=#854F0B;align=center;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;"
+      edge="1" source="silver_box" target="gold_box" parent="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+
+    <!-- Storage → Consumo -->
+    <mxCell id="arr_sc" value="Sirve KPIs"
+      style="edgeStyle=orthogonalEdgeStyle;strokeColor=#D85A30;strokeWidth=3;fontSize=10;fontColor=#D85A30;align=center;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;"
+      edge="1" source="fase3_bg" target="fase4_bg" parent="1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+
+    <!-- ══════════════════════════════════════════
+         BANDA INFERIOR: GOVERNANCE + ORQUESTACIÓN
+    ══════════════════════════════════════════ -->
+    <mxCell id="gov_bot" value="Data Governance · Unity Catalog · Lineage · Access Control · Data Quality · PII masking"
+      style="rounded=1;arcSize=4;fillColor=#EEEDFE;strokeColor=#534AB7;strokeWidth=1.5;align=center;fontSize=10;fontStyle=1;fontColor=#3C3489;"
+      vertex="1" parent="1">
+      <mxGeometry x="60" y="818" width="680" height="34" as="geometry"/>
+    </mxCell>
+
+    <mxCell id="orch_bot" value="Orquestación · Apache Airflow · Databricks Workflows · DAGs · SLAs · Retry · Alertas"
+      style="rounded=1;arcSize=4;fillColor=#EAF3DE;strokeColor=#3B6D11;strokeWidth=1.5;align=center;fontSize=10;fontStyle=1;fontColor=#27500A;"
+      vertex="1" parent="1">
+      <mxGeometry x="760" y="818" width="580" height="34" as="geometry"/>
+    </mxCell>
+
+    <!-- ══════════════════════════════════════════
+         LEYENDA COLORES (esquina inferior derecha)
+    ══════════════════════════════════════════ -->
+    <mxCell id="ley_tit" value="Relación con arquitectura detallada:"
+      style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=10;fontStyle=1;fontColor=#333;"
+      vertex="1" parent="1">
+      <mxGeometry x="60" y="860" width="280" height="18" as="geometry"/>
+    </mxCell>
+    <mxCell id="ley_txt" value="Este diagrama resume el stack tecnológico y las fases del diagrama Medallion completo (v4).&#xa;Mismos colores · mismas tablas · mismos KPIs · mismas herramientas · orden idéntico."
+      style="text;html=1;strokeColor=none;fillColor=none;align=left;fontSize=9;fontColor=#555;"
+      vertex="1" parent="1">
+      <mxGeometry x="60" y="878" width="620" height="30" as="geometry"/>
+    </mxCell>
+
+  </root>
+</mxGraphModel>
