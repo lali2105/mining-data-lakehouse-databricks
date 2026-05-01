@@ -56,10 +56,10 @@ The goal is to simulate how modern data platforms can integrate these domains to
 
 Multi-latency grade reconciliation — joining three sources with radically different update frequencies:
 
-Truck production stream → every 30 seconds
-Lab grade results → every 8 hours
-Geological block model → weekly
-This stream-to-static join pattern is one of the most technically demanding problems in industrial Data Engineering — and the most valuable KPI in mining.
+- Truck production stream → every 30 seconds
+- Lab grade results → every 8 hours
+- Geological block model → weekly
+- This stream-to-static join pattern is one of the most technically demanding problems in industrial Data Engineering — and the most valuable KPI in mining.
 
 
 ## ⚡ What this pipeline does
