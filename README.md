@@ -1,4 +1,4 @@
-## ⛏️ Mining Data Lakehouse (Databricks + Azure)
+# ⛏️ Mining Data Lakehouse (Databricks + Azure)
 
 End-to-end data platform for underground polymetallic mining operations. 
 This project designs a modern Data Lakehouse architecture based on a real-world mining scenario, integrating:
