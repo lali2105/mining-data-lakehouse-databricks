@@ -128,9 +128,6 @@ Tablas agregadas por turno, día, semana y mes, optimizadas para consulta:
 **Contratas**
     gold_kpi_valorizacion: costo por tarea / costo por tonelada /productividad por contratista
     - `gold.produccion_diaria`: toneladas molidas, ley por metal, onzas de plata producidas vs. plan de minado
-
-
-
 **Storage**: Delta Lake con Z-ordering en columnas de fecha y unidad minera
 
 ### Consumo
@@ -150,6 +147,13 @@ Tablas agregadas por turno, día, semana y mes, optimizadas para consulta:
     - `Finanzas`: Costos por tonelada
     - `Operaciones`: Eficiencia de equipos
 
+## 🏗️ Architecture Diagram
+
+###  Executive Summary — Stack & Tools
+![Executive Summary](architecture/huaron_resumen_ejecutivo.png)
+
+### Medallion Architecture (Bronze → Silver → Gold)
+![Medallion Architecture](architecture/huaron_medallion_v4OK.png)
 
 ## 5. Decisiones técnicas justificadas
 
@@ -214,6 +218,7 @@ Usé Claude.ai como asistente de investigación, verificación de datos y co-dis
 
 ---
 > **Contexto del autor**: Este análisis combina datos públicos verificados de Pan American Silver Corp (reportes SEC, sitio corporativo, casos de proveedores) con conocimiento operativo de primera mano. El autor trabajó 4 años en sistemas de producción mina, geología y valorización de contratistas en la Mina Morococha (Junín, Perú) — operación polimetálica subterránea del mismo perfil que Huarón, ambas bajo Pan American Silver. Los procesos descritos (partes de guardia, valorización por tarea, reconciliación de leyes) son conocimiento vivido, no inferencia.
+> 
 ## ✅ Checklist de entrega
 
 **CheckList**:  valida que tienes todo:
