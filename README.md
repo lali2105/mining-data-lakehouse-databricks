@@ -89,8 +89,6 @@ LIMS Lab            Apache Airflow         Unity Catalog         Teams / SMS
 Block Model         Azure Data Factory     Azure ADLS Gen2       Databricks SQL
 ```
 
-This stream-to-static join pattern is one of the most technically demanding problems in industrial Data Engineering — and the most valuable KPI in mining.
-
 ---
 ## 👩‍💻 About the Author
 
@@ -113,7 +111,7 @@ Every pipeline in this project — IoT ingestion, grade reconciliation, contract
 
 > *"I don't model mining data. I've lived it at 4,300 meters above sea level, on a 14×7 rotation."*
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Esmeralda%20Mendoza-0A66C2?logo=linkedin&logoColor=white)](https://linkedin.com/in/tu-perfil)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Esmeralda%20Pimentel-0A66C2?logo=linkedin&logoColor=white)](https://linkedin.com/in/tu-perfil)
 [![GitHub](https://img.shields.io/badge/GitHub-lali2105-181717?logo=github&logoColor=white)](https://github.com/lali2105)
 
 ---
