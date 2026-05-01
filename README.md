@@ -38,6 +38,7 @@ The goal is to simulate how modern data platforms can integrate these domains to
 
 ###  Executive Summary — Stack & Tools
 ![Executive Summary](./huaron_resumen_ejecutivo.png)
+<img src="architecture/huaron_resumen_ejecutivo.png" width="800"/>
 
 ### Medallion Architecture (Bronze → Silver → Gold)
 ![Medallion Architecture](./huaron_medallion_v4OK.png)
