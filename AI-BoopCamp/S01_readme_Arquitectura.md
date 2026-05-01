@@ -67,7 +67,7 @@ Los datos son el núcleo de las decisiones operativas y financieras en una miner
 La arquitectura sigue el patrón **Medallion (Bronze → Silver → Gold)** sobre **Azure Data Lake Storage Gen2**, con procesamiento distribuido en **Azure Databricks** y orquestación con **Apache Airflow**.  
 El objetivo es transformar datos operativos de mina (producción, geología, transporte y contratas) en información confiable para toma de decisiones.
 
-### Bronze — Datos crudos (registro inmutable)
+### 🟤 Bronze — Datos crudos (registro inmutable)
 
 Todo dato que entra al sistema se persiste sin transformación en formato **Parquet** (batch) o **JSON** (streaming), particionado por `año/mes/día/fuente`. Nada se descarta — es el registro histórico trazable. Mantener una copia fiel del dato original para auditoria.
 
@@ -82,13 +82,13 @@ Todo dato que entra al sistema se persiste sin transformación en formato **Parq
 **Partición**: `fuente/año/mes/día`
 
 📌 Ejemplos de tablas
-    bronze_viajes_camion_raw
-    bronze_geologia_muestras_raw
-    bronze_produccion_mina_raw
-    bronze_planta_raw
-    bronze_contratas_raw
+    - `bronze_viajes_camion_raw`
+    - `bronze_geologia_muestras_raw`
+    - `bronze_produccion_mina_raw`
+    - `bronze_planta_raw`
+    - `bronze_contratas_raw`
 
-### Silver — Datos limpios, validados y reconciliados
+### ⚪ Silver — Datos limpios, validados y reconciliados
 
 Aquí ocurre la lógica de negocio minero. Las transformaciones clave son:
 
@@ -103,13 +103,13 @@ Aquí ocurre la lógica de negocio minero. Las transformaciones clave son:
 **Compute**: Azure Databricks (Spark)
 
 📌 Ejemplos de tablas
-    silver_viajes_camion
-    silver_geologia_leyes
-    silver_produccion_turno
-    silver_planta_procesamiento
-    silver_contratas_validadas
+    - `silver_viajes_camion`
+    - `silver_geologia_leyes`
+    - `silver_produccion_turno`
+    - `silver_planta_procesamiento`
+    - `silver_contratas_validadas`
 
-### Gold — Métricas de negocio listas para analisis y decisiones.
+### 🟡 Gold — Métricas de negocio listas para analisis y decisiones.
 
 Tablas agregadas por turno, día, semana y mes, optimizadas para consulta:
 
