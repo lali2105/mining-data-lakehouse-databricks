@@ -150,10 +150,10 @@ Tablas agregadas por turno, día, semana y mes, optimizadas para consulta:
 ## 🏗️ Architecture Diagram
 
 ###  Executive Summary — Stack & Tools
-![Executive Summary](architecture/huaron_resumen_ejecutivo.png)
+![Executive Summary](../architecture/huaron_resumen_ejecutivo.png)
 
 ### Medallion Architecture (Bronze → Silver → Gold)
-![Medallion Architecture](architecture/huaron_medallion_v4OK.png)
+![Medallion Architecture](../architecture/huaron_medallion_v4OK.png)
 
 ## 5. Decisiones técnicas justificadas
 
