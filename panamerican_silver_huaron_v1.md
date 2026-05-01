@@ -21,11 +21,11 @@ Mina subterránea polimetálica ubicada en la Cordillera Occidental de los Andes
 
 > **Nota del autor**: Este análisis utiliza **Pan American Silver / Mina Huarón** como empresa real de referencia, para construir una arquitectura de datos propuesta para una operación minera subterránea polimetálica real.  Esta arquitectura es una propuesta académica inferida a partir de información pública sobre Mina Huarón, experiencia previa en sistemas mineros y buenas prácticas modernas de Data Engineering. No representa la arquitectura interna oficial de Pan American Silver.
 
-> **Alcance y enfoque del proyecto de portafolio:**
-> - 🏭 **Empresa real**: Pan American Silver Corp — Mina Huarón (Pasco, Perú)
-> - 🗺️ **Proyecto**: Arquitectura de datos propuesta para una operación minera subterránea polimetálica
-> - 📊 **Datos**: Simulados por el autor, basados en procesos reales de mina
-> - 🎯 **Enfoque**: Sensores IoT + control de producción + leyes de geología + transporte de mineral + planta concentradora + valorización de contratas
+ **Alcance y enfoque del proyecto de portafolio:**
+ - 🏭 **Empresa real**: Pan American Silver Corp — Mina Huarón (Pasco, Perú)
+ - 🗺️ **Proyecto**: Arquitectura de datos propuesta para una operación minera subterránea polimetálica
+ - 📊 **Datos**: Simulados por el autor, basados en procesos reales de mina
+ - 🎯 **Enfoque**: Sensores IoT + control de producción + leyes de geología + transporte de mineral + planta concentradora + valorización de contratas
 
 ---
 
