@@ -1,4 +1,4 @@
-# Análisis de arquitectura de datos: Pan American Silver Corp — Mina Huarón
+# 🎯 Análisis de Arquitectura de datos: Pan American Silver Corp — Mina Huarón
 
 **Autor**: Esmeralda Pimentel
 **Fecha**: Abril 2026
